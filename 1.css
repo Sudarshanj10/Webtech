@@ -1,0 +1,21 @@
+body{
+    background-color: blueviolet;
+}
+h2{
+    box-shadow: px 5px 5px 5px black;
+    color: rgba(236, 123, 66, 0.793);
+}
+h1{
+    color: antiquewhite !important;
+    text-shadow: 5px 5px 5px black !important;
+     
+}
+div{
+    background-color: rgb(255, 00, 00);
+    color: rgb(0, 255,00);
+}
+#d1
+{
+    
+background-color: #9fa4a9;
+}

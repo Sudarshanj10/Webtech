@@ -1,0 +1,26 @@
+<script>
+  var exp = /^[1-9][0-9][0-9][0-9][0-9][0-9]$/;
+  var pincode = 410070;
+  var result1 = exp.test(pincode);
+  console.log(result1);
+
+  var exp1 = /^[6-9][0-9]{9}$/;
+  var mobile = 9999888222;
+  var result2 = exp1.test(mobile);
+  console.log(result2);
+
+  var exp2 = /^([a-zA-Z]{5})([0-9]{4})([a-zA-Z])$/;
+  var pan = "adasd4545a";
+  var result3 = exp2.test(pan);
+  console.log(result3);
+
+  var exp3 = /^[a-zA-Z]([a-zA-Z ]+)?[a-zA-Z]$/;
+  var name = "Amit Shah";
+  var result4 = exp3.test(name);
+  console.log(result4);
+
+  var exp3 = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+$/;
+  var name = "amitshah@gmail.com";
+  var result5 = exp3.test(name);
+  console.log(result5);
+</script>
