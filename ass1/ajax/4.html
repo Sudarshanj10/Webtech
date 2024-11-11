@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <input type="date" id="x1" />
+    <p></p>
+    <button>GET</button>
+
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          //alert("date");
+          var record = $("#x1").val();
+          console.log(record);
+
+          var res=record.split("-");
+          console.log(res);
+          
+
+          var dateobject = new Date();
+          console.log(dateobject);
+
+          var currentYear = dateobject.getFullYear();
+          console.log(currentYear);
+
+          var age = currentYear - res[0];
+          $("p").html("Age: " + age);
+        });
+      });
+    </script>
+  </body>
+</html>

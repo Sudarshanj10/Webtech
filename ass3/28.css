@@ -1,0 +1,48 @@
+.header {
+  font-size: 24px;
+  color: darkblue;
+  text-align: center;
+}
+
+.box {
+  font-size: 18px;
+  color: white;
+  background-color: darkgreen;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#unique-box {
+  font-size: 20px;
+  color: black;
+  background-color: lightgray;
+  padding: 15px;
+  border: 2px solid darkblue;
+  text-align: center;
+}
+.header {
+  font-size: 24px;
+  color: darkblue;
+  text-align: center;
+}
+
+.box {
+  font-size: 18px;
+  color: white;
+  background-color: darkgreen;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#unique-box {
+  font-size: 20px;
+  color: black;
+  background-color: lightgray;
+  padding: 15px;
+  border: 2px solid darkblue;
+  text-align: center;
+}
